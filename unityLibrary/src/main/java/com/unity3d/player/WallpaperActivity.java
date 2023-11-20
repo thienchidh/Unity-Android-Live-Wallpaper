@@ -1,4 +1,4 @@
-package change.packagename.here;
+package com.unity3d.player;
 
 import android.annotation.TargetApi;
 import android.app.WallpaperColors;

@@ -19,9 +19,9 @@ Export your game as Android Studio project. Then you need to make next steps:
 1) Copy content from [AndroidManifest.xml](AndroidManifest.xml) to the project's AndroidManifest.xml, after main activity tag. Should look like this:
  <img src="screenshots/manifest.png?raw=true" width="800">
 
-2) Add [WallpaperActivity.java](WallpaperActivity.java) script into the project. You probably would need to change the package name at the top of the script.
+2) Add [WallpaperActivity.java](unityLibrary/src/main/java/com/unity3d/player/WallpaperActivity.java) script into the project. You probably would need to change the package name at the top of the script.
 
-3) Make `xml` folder in `res` and add [wallpaper.xml](wallpaper.xml) file there.
+3) Make `xml` folder in `res` and add [wallpaper.xml](unityLibrary/src/main/res/xml/wallpaper.xml) file there.
  <img src="screenshots/xml.png?raw=true" width="400">
 
 Now you can build and run. Go into wallpaper settings of your phone to see it. If you are using Samsung device then you need to install Google Wallpapers app to set it as a wallpaper.
